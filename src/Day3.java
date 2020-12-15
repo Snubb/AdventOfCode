@@ -23,7 +23,7 @@ public class Day3 {
 
         int trees = 0;
         int playerPosition = 0;
-        for (int i = 0; i < path.length; i++) {
+        for (int i = 0; i < path.length; i = i++) {
             String isTree = Character.toString(path[i].charAt(playerPosition));
             if (isTree.equals("#")) {
                 trees++;
